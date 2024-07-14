@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: wordpress-pvc
   labels:
-    app: wordpress-app
+    app: wordpress
 spec:
   accessModes:
     - ReadWriteOnce

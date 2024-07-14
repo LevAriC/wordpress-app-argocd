@@ -3,18 +3,18 @@ kind: Deployment
 metadata:
   name: wordpress
   labels:
-    app: wordpress-app
+    app: wordpress
 spec:
   selector:
     matchLabels:
-      app: wordpress-app
+      app: wordpress
       tier: frontend
   strategy:
     type: Recreate
   template:
     metadata:
       labels:
-        app: wordpress-app
+        app: wordpress
         tier: frontend
     spec:
       containers:
