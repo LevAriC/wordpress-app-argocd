@@ -1,1 +1,3 @@
-# wordpress-app-argocd
+# Wordpress App Using Argo CD
+
+Enjoy =]
