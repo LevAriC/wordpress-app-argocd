@@ -7,7 +7,6 @@ metadata:
 spec:
   ports:
     - port: 80
-      name: wordpress
   selector:
     app: wordpress
     tier: frontend
