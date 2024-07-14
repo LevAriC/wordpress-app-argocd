@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: wordpress-mysql
   labels:
-    app: wordpress
+    app: wordpress-app
 spec:
   ports:
     - port: 3306
   selector:
-    app: wordpress
+    app: wordpress-app
     tier: mysql
   clusterIP: None
